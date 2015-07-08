@@ -24,11 +24,13 @@
       del: 46, 'delete': 46,
       home: 36, end: 35,
       pageup: 33, pagedown: 34,
+      numpad0: 96, numpadAdd: 107,
+      numpadSubtract: 109, numpadDecimal: 110,
       ',': 188, '.': 190, '/': 191,
       '`': 192, '-': 189, '=': 187,
       ';': 186, '\'': 222,
       '[': 219, ']': 221, '\\': 220,
-      '?': 191, add: 107, subtract: 109
+      '?': 191
     },
     code = function(x){
       return _MAP[x] || x.toUpperCase().charCodeAt(0);
