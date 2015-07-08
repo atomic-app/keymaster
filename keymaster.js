@@ -28,7 +28,7 @@
       '`': 192, '-': 189, '=': 187,
       ';': 186, '\'': 222,
       '[': 219, ']': 221, '\\': 220,
-      '?': 191
+      '?': 191, add: 107, subtract: 109
     },
     code = function(x){
       return _MAP[x] || x.toUpperCase().charCodeAt(0);
